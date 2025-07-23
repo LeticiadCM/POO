@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Caracteres3 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        char A = scanner.next().charAt(0);
+        char B = scanner.next().charAt(0);
+        char C = scanner.next().charAt(0);
+
+        System.out.printf("%c %c %c\n", A, B, C);
+
+    }
+}
